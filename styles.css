@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Limelight&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    width: 100px;
+}
+
+/* HERO */
+#hero {
+    background-image: url("https://images.pexels.com/photos/29240328/pexels-photo-29240328.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    background-color: yellow;
+    margin-top: 0;
+    position: relative;
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+h1, h2 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h3, h4 {
+      color: #3c3c3c;  
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#hero h1 {
+    font-size: 4rem; 
+    color: white;
+    margin: 0;
+    padding-top: 25px;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+
+#hero h2 {
+    padding-bottom:30px;
+    font-size: 1.7em;
+    width: 80%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+/* ACTIVITIES */
+#activities {
+    background-color: #f2d6bb;
+}
+
+#activities h3 {
+    padding: 30px 0;
+    color: #3c3c3c;
+    font-size: 1.4rem;
+}
+
+#activities .places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.place {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 calc(30%); /* fit roughly 3 in a row */
+  margin-bottom: 30px;
+}
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  flex-shrink: 0; 
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills the square and crops if needed */
+}
+
+/* GUIDE */
+footer {
+       background-color: #e9ecef;
+       padding: 30px 0;
+}
+
+#guide {
+    background-color: #f2cc8f;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border-bottom: 4px solid #6c757d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+img.guide {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1; /* allows it to take the remaining space */
+}
+
+.info h3, .info h4 {
+    margin: 0;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s0326t9h9p",
+  "description": "https://scrimba.com/s0326t9h9p/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
